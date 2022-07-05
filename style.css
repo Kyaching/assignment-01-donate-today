@@ -74,9 +74,12 @@ h1 {
   align-items: center;
   width: 135px;
   height: 123px;
-  font-weight: 700;
   background-color: #fafafa;
   align-items: center;
+}
+.money p {
+  font-size: 30px;
+  font-weight: 700;
 }
 #recommend-item {
   background-color: #ffeeee;
@@ -93,4 +96,31 @@ hr {
   margin-top: 9.5px;
   margin-bottom: 30px;
   width: 765px;
+}
+.donation-plan {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.plan {
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  padding: 63.5px 22px 54px 22px;
+}
+.plan h3 {
+  font-size: 24px;
+  margin-top: 31.73px;
+  margin-bottom: 16px;
+}
+#family {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+#shelter {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#education {
+  background-color: #fff4d6;
 }
