@@ -8,14 +8,16 @@ body {
 p {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  color: #ffffff;
 }
 h1 {
   font-size: 65px;
   font-weight: 700;
-  color: #ffffff;
 }
-.top-banner {
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.banner-container {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -32,9 +34,9 @@ h1 {
   text-align: center;
 }
 .description p,
-h1,
-button {
+h1 {
   margin: 20px;
+  color: #ffffff;
 }
 .donate-button {
   padding: 16px 12px;
@@ -44,4 +46,51 @@ button {
   font-size: 20px;
   border: none;
   border-radius: 5px;
+}
+.donation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.donate {
+  width: 50%;
+  text-align: center;
+}
+.donate p {
+  margin: 20px;
+  color: #707070;
+}
+.donate-money {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 22px;
+}
+.money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 123px;
+  font-weight: 700;
+  background-color: #fafafa;
+  align-items: center;
+}
+#recommend-item {
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+.amount {
+  margin-top: 60px;
+  text-align: center;
+  color: #b3b3b3;
+}
+hr {
+  margin-top: 9.5px;
+  margin-bottom: 30px;
+  width: 765px;
 }
