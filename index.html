@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google Font "Inter" -->
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <!-- Custom style -->
     <link rel="stylesheet" href="style.css" />
     <title>Donate Today</title>
   </head>
 
   <body>
+    <!-- Header -->
     <section class="flexible-container banner">
       <div class="description">
         <h1>Let’s Help Those Who Are More In Need</h1>
@@ -27,42 +29,44 @@
           We need you to help us inspire hope and positive change in the lives
           of our clients.
         </p>
-        <button class="donate-button">Donate Now</button>
+        <button class="flexible-button">Donate Now</button>
       </div>
     </section>
+    <!-- Donate Section -->
     <section class="flexible-container">
-      <div class="donate">
+      <div class="flexible-box">
         <h2>Donate Today</h2>
         <p>
           Donating online is the fastest and easiest way to join our Donate
           Today mission. Donate now using our simple safe and secure system.
         </p>
       </div>
-      <div class="donate-money">
-        <div class="money">
+      <div class="donate-box">
+        <div class="box">
           <p>100tk</p>
         </div>
-        <div id="recommend-item" class="money">
+        <div id="recommend-box" class="box">
           <p>200tk</p>
         </div>
-        <div class="money">
+        <div class="box">
           <p>500tk</p>
         </div>
-        <div class="money">
+        <div class="box">
           <p>1000tk</p>
         </div>
-        <div class="money">
+        <div class="box">
           <p>5000tk</p>
         </div>
       </div>
       <div class="amount">
         <p>Other Amount (Taka)</p>
         <hr />
-        <button class="donate-button">Donate Now</button>
+        <button class="flexible-button">Donate Now</button>
       </div>
     </section>
+    <!-- Donation Plan Section -->
     <section class="flexible-container">
-      <div class="donate">
+      <div class="flexible-box">
         <h2>Our Donate Plan</h2>
         <p>
           Donate Today have multiple plan for at the time of adversity and
@@ -70,7 +74,7 @@
           below.
         </p>
       </div>
-      <div class="donation-plan">
+      <div class="plan-box">
         <div id="family" class="plan">
           <img src="./icons/food.png" alt="" />
           <h3>Food for a family</h3>
@@ -98,21 +102,39 @@
         </div>
       </div>
     </section>
+    <!-- Huminity section 1 -->
     <section class="mid-container mid-banner">
-      <div class="mid-box">
-        <div id="container">
+      <div class="right-box">
+        <div class="container">
           <h3>Their lives depend on your donation</h3>
           <p>
             During a pandemic situation or natural disaster mass people facing
             misareble situation. They need people like you to overcome adverse
             situation.
           </p>
-          <button class="donate-button">How to Contribute?</button>
+          <button class="flexible-button">How to Contribute?</button>
         </div>
       </div>
     </section>
+    <!-- Huminity Section -2 -->
+    <section id="resize" class="mid-container">
+      <div class="left-box">
+        <img src="./images/donation3.jpg" alt="" srcset="" />
+        <img src="./images/donation9.jpg" alt="" srcset="" />
+      </div>
+      <div class="right-box">
+        <div class="container">
+          <h3>They need us to suvive</h3>
+          <p>
+            They need our help to be strong and survive in distress situation.
+          </p>
+          <button class="flexible-button">How to Contribute?</button>
+        </div>
+      </div>
+    </section>
+    <!-- Latest Updates section -->
     <section class="flexible-container">
-      <div class="donate">
+      <div class="flexible-box">
         <h2>Get My Updates</h2>
         <p>
           We updates everyday work progress and latest news about our mission
@@ -120,11 +142,12 @@
           our Donate Today community members.
         </p>
       </div>
-      <div class="form-container">
+      <div id="form-container">
         <input type="text" name="email" id="mail" placeholder="Email" />
         <button id="form-button">Subscribe</button>
       </div>
     </section>
+    <!-- footer section -->
     <footer>
       <h3>Be Humble</h3>
       <p>I'm gonna do it</p>

@@ -1,3 +1,10 @@
+/* *****************************
+********************************
+ Designed by Kyachinghla Marma *
+ *******************************
+ *******************************  
+*/
+
 /* 
 =============
 global style
@@ -21,7 +28,7 @@ h2 {
 }
 /* 
 ====================
-donate today styles
+  flexible styles
 ====================
 */
 
@@ -32,6 +39,29 @@ donate today styles
   align-items: center;
   height: 100vh;
 }
+.flexible-button {
+  padding: 16px 12px;
+  background-color: #ff5959;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.flexible-box {
+  width: 50%;
+  text-align: center;
+}
+.flexible-box p {
+  margin: 20px;
+  color: #707070;
+}
+
+/* 
+============
+Other Styles
+============
+*/
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url(./images/donation1.jpg);
@@ -47,43 +77,25 @@ donate today styles
 .description p {
   margin-bottom: 30px;
 }
-.donate-button {
-  padding: 16px 12px;
-  background-color: #ff5959;
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 20px;
-  border: none;
-  border-radius: 5px;
-}
-.donate {
-  width: 50%;
-  text-align: center;
-}
-.donate p {
-  margin: 20px;
-  color: #707070;
-}
-.donate-money {
+.donate-box {
   width: 100%;
   display: flex;
   justify-content: center;
   column-gap: 22px;
 }
-.money {
+.box {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 135px;
   height: 123px;
   background-color: #fafafa;
-  align-items: center;
 }
-.money p {
+.box p {
   font-size: 30px;
   font-weight: 700;
 }
-#recommend-item {
+#recommend-box {
   background-color: #ffeeee;
   color: #ff5959;
   border: 2px solid #ff5959;
@@ -99,7 +111,7 @@ hr {
   margin-bottom: 30px;
   width: 765px;
 }
-.donation-plan {
+.plan-box {
   width: 85%;
   display: flex;
   justify-content: center;
@@ -126,8 +138,56 @@ hr {
 #education {
   background-color: rgb(255, 244, 214);
 }
+.mid-banner {
+  background-image: url(./images/donation2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mid-container {
+  margin-top: 100px;
+  display: flex;
+  height: 100vh;
+  justify-content: right;
+  align-items: center;
+}
+#resize {
+  height: 70%;
+}
+.right-box {
+  width: 550px;
+  height: 400px;
+  margin-right: 120px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.left-box {
+  display: flex;
+  width: 70%;
+  height: 400px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.left-box img {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.container {
+  margin: 50px 30px 0 50px;
+}
+.container h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.container p {
+  margin-bottom: 40px;
+  color: #707070;
+}
 /* Form Section */
-.form-container {
+#form-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,6 +216,11 @@ input {
   border: none;
   border-radius: 0 5px 5px 0;
 }
+/*
+============
+Footer style
+============ 
+ */
 footer {
   width: 100%;
   height: 177px;
@@ -174,35 +239,4 @@ footer p {
   font-size: 14px;
   font-weight: 400;
   color: #d9dbe1;
-}
-.mid-banner {
-  background-image: url(./images/donation2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.mid-container {
-  margin-top: 100px;
-  display: flex;
-  height: 100vh;
-  justify-content: right;
-  align-items: center;
-}
-.mid-box {
-  width: 550px;
-  height: 400px;
-  margin-right: 120px;
-  background-color: #ffffff;
-  border-radius: 15px;
-}
-#container {
-  margin: 50px 30px 0 50px;
-}
-#container h3 {
-  font-size: 35px;
-  font-weight: 700;
-}
-#container p {
-  margin-bottom: 40px;
-  color: #707070;
 }
