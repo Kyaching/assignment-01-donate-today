@@ -1,3 +1,8 @@
+/* 
+=============
+global style
+============
+*/
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -14,10 +19,18 @@ h2 {
   font-size: 45px;
   font-weight: 700;
 }
-.banner-container {
-  height: 100vh;
+/* 
+====================
+donate today styles
+====================
+*/
+
+.flexible-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
@@ -27,14 +40,12 @@ h2 {
   background-position: center;
 }
 .description {
-  margin: 0 auto;
   width: 65%;
   text-align: center;
-}
-.description p,
-h1 {
-  margin: 20px;
   color: #ffffff;
+}
+.description p {
+  margin-bottom: 30px;
 }
 .donate-button {
   padding: 16px 12px;
@@ -44,13 +55,6 @@ h1 {
   font-size: 20px;
   border: none;
   border-radius: 5px;
-}
-.donation-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 .donate {
   width: 50%;
@@ -120,7 +124,7 @@ hr {
   background-color: rgba(255, 89, 89, 0.1);
 }
 #education {
-  background-color: #fff4d6;
+  background-color: rgb(255, 244, 214);
 }
 /* Form Section */
 .form-container {
@@ -161,7 +165,7 @@ footer {
 footer h3 {
   font-family: "Lobster", cursive;
   padding-top: 43px;
-  padding-bottom: 24px;
+  margin-bottom: 0;
   font-size: 36px;
   font-weight: 400;
   color: #ff5959;
